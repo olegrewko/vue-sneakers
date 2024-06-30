@@ -4,7 +4,7 @@ import Header from '../components/Header.vue';
 </script>
 
 <template>
-  <div class="bg-white w-3/5 m-auto rounded-xl shadow-xl shadow-grey-200 mt-20">
+  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl shadow-grey-200 mt-5">
     <Header />
 
     <div class="p-10">
@@ -31,11 +31,27 @@ import Header from '../components/Header.vue';
         </div>
       </div>
 
-      <div class="grid grid-cols-4 gap-10">
+      <div class="grid grid-cols-3 gap-1 text-xs">
+        <Card
+          title="Мужские Кроссовки Nike Blazer Mid Suede"
+          :price="1500 + 1500"
+          img="/sneakers/ceq.jpg"
+          :isAdded="true"
+        />
         <Card
           title="Мужские Кроссовки Nike Blazer Mid Suede"
           price="1000"
-          img="/sneakers/sneakers-1.jpg"
+          img="/sneakers/ceq.jpg"
+        />
+        <Card
+          title="Мужские Кроссовки Nike Blazer Mid Suede"
+          price="1000"
+          img="/sneakers/ceq.jpg"
+        />
+        <Card
+          title="Мужские Кроссовки Nike Blazer Mid Suede"
+          price="1000"
+          img="/sneakers/ceq.jpg"
         />
       </div>
     </div>
